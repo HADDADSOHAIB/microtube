@@ -2,10 +2,13 @@
 * {
   
   -webkit-appearance: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
   background-color: #EEEEEE;
+  
+
 }
 
 /* nav bar */
