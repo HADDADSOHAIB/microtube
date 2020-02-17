@@ -1,3 +1,10 @@
+
+* {
+  
+  -webkit-appearance: none;
+}
+
+
 /* nav bar */
 
 .logo { 
@@ -14,6 +21,7 @@
   height: 30px;
   padding-right: 50px;
   border-radius: 0px;
+ 
 }
 
 .btn-search{
@@ -21,7 +29,17 @@
   height: 30px;
 }
 
+.option-item{
+  margin:3px;
+}
+
 /* main video display */
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .video-container{
   width: 60%;
 }
@@ -51,3 +69,27 @@
 .avatar{
   width: 80px;
 }
+
+/* Next video display */
+.next-videos{
+  width: 40%;
+  margin-left: 20px;
+}
+.thumb-image{
+  width: 50%;
+  margin-right: 15px;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+ .thumb-title{
+   margin-top: 0;
+   margin-bottom: 5px;
+  }
+  .thumb-detail{
+    display: block;
+  }
