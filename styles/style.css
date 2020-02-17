@@ -12,4 +12,11 @@
 
 .search{
   height: 30px;
+  padding-right: 50px;
+  border-radius: 0px;
+}
+
+.btn-search{
+  margin-left: -53px;
+  
 }
