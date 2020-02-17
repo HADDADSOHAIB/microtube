@@ -18,5 +18,36 @@
 
 .btn-search{
   margin-left: -53px;
-  
+  height: 30px;
+}
+
+/* main video display */
+.video-container{
+  width: 60%;
+}
+
+.video-display{
+  width: 100%;
+}
+.video{
+  width: 100%;
+}
+
+.like-item{
+  margin: 3px;
+}
+
+.share{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.views-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar{
+  width: 80px;
 }
