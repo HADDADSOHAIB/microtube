@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Microtube</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">  
@@ -17,7 +18,7 @@
       <i class="fas fa-upload option-item fa-2x"></i> 
       <i class="fas fa-shapes option-item fa-2x"></i>
       <img class ="user-avatar" src="images/user-avatar.png" alt="logged user avatar">
-      <button class="btn-signup option-item btn">Sign Out</button>
+      <button class="btn-signout option-item btn">Sign Out</button>
     </div>
   </nav>
   <section class="container">
@@ -43,7 +44,9 @@
         <div class="share-container">
           <button class="btn-share btn">
             <i class="fas fa-share fa-lg"></i>
+            Share
           </button>
+          
         </div>
         <div class="like">
           <i class="far fa-thumbs-up like-item"></i>
@@ -53,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="description-section">
+    <section class="description-section">
       <h5>Published on Feb 27, 2014
 
       </h5>
@@ -65,7 +68,13 @@
           As an example, I use submitting a student solution to a web development exercise from The Odin Project, 
           a free online curriculum for learning web development with Ruby on Rails. 
           You can find more information about that project at http://theodinproject.com.</p>
-    </div>
+    </section>
+    <section class="comments-section">
+      <p>Comments</p>
+    <hr/>
+      <div class="loading-icon"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></div>
+    </section>
+
   </main>
   <aside class="next-videos">
     <div class="up-next">
@@ -130,6 +139,9 @@
     </section>
   </aside>
 </section>
+<footer class="footer">  
+  <img class="footer-logo" src="images/micro-icon.svg">
+</footer>
 
 </body>
 </html>
