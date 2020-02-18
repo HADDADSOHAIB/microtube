@@ -121,12 +121,6 @@ body {
   margin: 3px;
 }
 
-.share {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .btn-subscribe,
 .btn-share {
   margin-left: 5px;
@@ -153,13 +147,28 @@ body {
   margin-bottom: 0;
 }
 
-.avatar-and-subscribe {
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+i {
+  cursor: pointer;
+}
+
+.likes-container {
   display: flex;
   align-items: flex-end;
 }
 
-.avatar {
-  width: 80px;
+.likes-container > * {
+  margin: 5px;
 }
 
 /**** Next video display ****/
@@ -248,6 +257,7 @@ hr.first {
   padding: 20px;
   border-radius: 4px;
   margin-top: 10px;
+  display: flex;
 }
 
 /**** comments section ****/
