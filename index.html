@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
   <title>Microtube</title>
+  <meta charset="UTF-8">
+  <meta name="Microtube" content="Youtube Clone">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="HADDAD SOHAIB, FERNANDO BAHAMONDES">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">  
 </head>
 <body>
   <nav class="navigation">
-    <img class="logo navigation-item" src="images/micro-icon.svg">
+    <img class="logo navigation-item" alt="logo" src="images/micro-icon.svg">
     <form class = "search-form">
-    <input class="search navigation-item" type="search" alt="search box" />
+    <input class="search navigation-item" type="search"/>
     <button type="submit" class="btn-search"><i class="fas fa-search"></i></button>
   </form>
     <div class="option">
@@ -21,11 +26,11 @@
       <button class="btn-signout option-item btn">Sign Out</button>
     </div>
   </nav>
-  <section class="container">
-  <main class="video-container">
+  <main class="container">
+  <section class="video-container">
     <div class="video">
       <iframe class="video-display" width="560" height="500" 
-      src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" 
+      src="https://www.youtube.com/embed/V74l_zS1x8E" 
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-infos">
@@ -70,12 +75,12 @@
           You can find more information about that project at http://theodinproject.com.</p>
     </section>
     <section class="comments-section">
-      <p>Comments</p>
+      <h3>Comments</h3>
     <hr/>
       <div class="loading-icon"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></div>
     </section>
 
-  </main>
+  </section>
   <aside class="next-videos">
     <div class="up-next">
       <p>Up next </p>
@@ -138,9 +143,9 @@
       </div>
     </section>
   </aside>
-</section>
+</main>
 <footer class="footer">  
-  <img class="footer-logo" src="images/micro-icon.svg">
+  <img class="footer-logo" alt="logo" src="images/micro-icon.svg">
 </footer>
 
 </body>

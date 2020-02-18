@@ -1,26 +1,48 @@
-# youtube-clone
 
-This is a youtube clone, it is part of Microverse curriculum, it is the introduction project for HTML and CSS3 courses.
+# MICROTUBE
 
-## Built with:
+A youtube clone with new design.
 
-HTML <br />
-CSS3 <br />
 
-## Live Demo:
-This website is not deploy yet.
+## Built With
 
-## Authors:
+- HTML,
+- CSS.
 
-HADDAD SOHAIB  (https://github.com/HADDADSOHAIB)
-FERNANDO BAHAMONDES (https://github.com/ferbaco86)
+## Live Demo
 
-## Contributing:
+https://rawcdn.githack.com/HADDADSOHAIB/youtube-clone/c492d02ee34ab40a25059bcae6aab1b5f1552437/index.html
+
+## Authors
+
+👤 **HADDAD SOHAIB**
+
+- Github: [@HADDADSOHAIB](https://github.com/HADDADSOHAIB)
+- Twitter: [@HaddadSohaib](https://twitter.com/HaddadSohaib)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sohaibhaddad/)
+
+👤 **FERNANDO BAHAMONDES**
+
+- Github: [@ferbaco86](https://github.com/ferbaco86)
+- Twitter: [@ferbac0](https://twitter.com/ferbac0)
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa-9632051a2/)
+
+## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the issues page.
-# Show your support
-Give us a star.
 
-##License:
-MIT.
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
