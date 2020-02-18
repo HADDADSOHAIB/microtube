@@ -11,6 +11,13 @@ body{
 
 }
 
+.btn{
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
 /* nav bar */
 
 .logo { 
@@ -115,7 +122,21 @@ body{
 .views-container{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+}
+.views-container p{
+  margin-bottom: 0;
+}
+.avatar-and-subscribe{
+  display: flex;
+  align-items: flex-end;
+}
+.btn-subscribe, .btn-share{
+  margin-left: 5px;
+  background-color: #6f23ff;
+  color:white;
+  border: none;
+  font-size: large;
 }
 .avatar{
   width: 80px;
@@ -130,8 +151,27 @@ body{
   padding: 20px;
   border-radius: 4px;
 }
+.next-videos p{
+  margin: 0 0 3px;
+}
+.fa-caret-square-right{
+  font-size: large;
+}
+hr{
+  border: 1px groove #6414f8;
+}
+.next-videos hr{
+  margin: 20px 0;
+}
+hr.first{
+  margin-top: 5px;
+}
+.up-next{
+  display: flex;
+  justify-content: space-between;
+}
 .thumb-image{
-  width: 50%;
+  min-width: 50%;
 }
 .thumb-info{
   margin-left: 15px;
