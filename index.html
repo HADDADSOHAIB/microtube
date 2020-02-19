@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Microtube</title>
+  <meta charset="UTF-8">
+  <meta name="Microtube" content="Youtube Clone">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="HADDAD SOHAIB, FERNANDO BAHAMONDES">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">  
+</head>
+<body>
+  <nav class="navigation">
+    <img class="logo navigation-item" alt="logo" src="images/micro-icon.svg">
+    <form class = "search-form">
+      <input class="search navigation-item" type="search"/>
+      <button type="submit" class="btn-search"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="option">
+      
+      <i class="fas fa-upload option-item fa-2x"></i> 
+      <i class="fas fa-shapes option-item fa-2x"></i>
+      <img class ="user-avatar" src="images/user-avatar.png" alt="logged user avatar">
+      <button class="btn-signout option-item btn">Sign Out</button>
+    </div>
+  </nav>
+  <main class="container">
+  <section class="video-container">
+    <div class="video">
+      <iframe class="video-display" width="560" height="500" 
+      src="https://www.youtube.com/embed/V74l_zS1x8E" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-infos">
+      <h2 class="video-title">
+        Contributing to Open Source Part I: The Easy Way
+      </h2>
+      <div class="views-container">
+        <div><p>50,016 views - Feb 20 2020</p></div>
+        <div class="likes-container">
+          <i class="far fa-thumbs-up like-item"></i>
+          <span class="like-item">12000</span>
+          <i class="far fa-thumbs-down like-item"></i>
+          <span class="like-item">1</span>
+          <button class="btn-share btn">
+            <i class="fas fa-share fa-lg"></i>
+            Share
+          </button>
+        </div>
+      </div>
+    </div>
+    <section class="description-section">
+      <div>
+        <img class="avatar" alt="user avatar" src="images/avatar.png">
+      </div>
+      <div>
+        <h4 class="username">Jean The youtuber</h4>
+        <small>10k subscribers</small>
+        <p>How do you contribute to open source? In this video, 
+          I'll describe the easiest way to make a simple contribution to an open source project 
+          -- without using the command line, a text editor, "forking a repo", 
+          or even touching Git outside of Github. I'll also describe 
+          what kinds of contributions open source software projects are typically looking for. 
+          As an example, I use submitting a student solution to a web development exercise from The Odin Project, 
+          a free online curriculum for learning web development with Ruby on Rails. 
+          You can find more information about that project at http://theodinproject.com.
+        </p>
+      </div>
+      <div class="avatar-and-subscribe">
+        <button class="btn-subscribe btn">Subscribe</button>
+      </div>
+    </section>
+    <section class="comments-section">
+      <h3>Comments</h3>
+      <hr/>
+      <div class="loading-icon"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></div>
+    </section>
+
+  </section>
+  <aside class="next-videos">
+    <div class="up-next">
+      <p>Up next </p>
+      <i class="far fa-caret-square-right fa-lg"></i>
+    </div>
+    <hr class="first"/>
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_1.jpg" alt="thumbnail for video 1">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+    <hr />
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_2.jpg" alt="thumbnail for video 2">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_3.jpg" alt="thumbnail for video 3">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_4.jpg" alt="thumbnail for video 4">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_5.jpg" alt="thumbnail for video 5">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+    <section class="thumbnail">
+      <img class="thumb-image" src="images/thumb_6.jpg" alt="thumbnail for video 6">
+      <p class="duration">14:30</p>
+      <div class="thumb-info">
+      <h4 class="thumb-title">Contributing to Open Source</h4>
+      <small class="thumb-detail">The Odin Project</small>
+      <small class="thumb-detail">41,523 views</small>
+      </div>
+    </section>
+  </aside>
+</main>
+<footer class="footer">  
+  <img class="footer-logo" alt="logo" src="images/micro-icon.svg">
+</footer>
+
+</body>
+</html>

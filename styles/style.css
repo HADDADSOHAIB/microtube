@@ -1,0 +1,302 @@
+
+* {
+  -webkit-appearance: none;
+  font-family: 'Domine', serif;
+}
+
+body {
+  background-color: #6f23ff;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/**** nav bar ****/
+.logo {
+  width: 180px;
+  margin-left: 10px;
+}
+
+.fa-upload,
+.fa-shapes {
+  color: white;
+}
+
+.fa-upload:hover,
+.fa-shapes:hover {
+  color: #ffd540;
+  cursor: pointer;
+}
+
+.btn-signout:hover {
+  color: white;
+  background-color: #ffd540;
+  cursor: pointer;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6414f8;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.search {
+  height: 30px;
+  width: 300px;
+  padding-right: 50px;
+  padding-bottom: 2px;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid  gray;
+}
+
+.btn-search {
+  margin-left: -20px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+.btn-search:hover {
+  color: white;
+  background-color: #ffd540;
+  cursor: pointer;
+}
+
+.option {
+  display: flex;
+}
+
+.option-item {
+  margin: 10px;
+}
+
+.user-avatar {
+  width: 60px;
+  align-self: flex-end;
+}
+
+/**** main video display ****/
+.video-infos {
+  background-color: #ffd540;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.video-title {
+  margin: 0 0 3px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.video-container {
+  width: 70%;
+}
+
+.video-display {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.like-item {
+  margin: 3px;
+}
+
+.btn-subscribe,
+.btn-share {
+  margin-left: 5px;
+  background-color: #6f23ff;
+  color: white;
+  border: none;
+  font-size: large;
+}
+
+.btn-share:hover,
+.btn-subscribe:hover {
+  color: white;
+  cursor: pointer;
+  background-color: hsla(261, 100%, 30%, 1);
+}
+
+.views-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.views-container p {
+  margin-bottom: 0;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+i {
+  cursor: pointer;
+}
+
+.likes-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.likes-container > * {
+  margin: 5px;
+}
+
+/**** Next video display ****/
+.next-videos {
+  width: 30%;
+  margin-left: 20px;
+  background-color: #ffd540;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.next-videos p {
+  margin: 0 0 3px;
+}
+
+.fa-caret-square-right {
+  font-size: large;
+}
+
+hr {
+  border: 1px groove #6414f8;
+}
+
+.next-videos hr {
+  margin: 20px 0;
+}
+
+hr.first {
+  margin-top: 5px;
+}
+
+.up-next {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb-image {
+  min-width: 50%;
+}
+
+.thumb-info {
+  margin-left: 15px;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 10px;
+}
+
+.thumb-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.thumb-detail {
+  display: block;
+}
+
+.duration {
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: inline;
+  margin: 0;
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+/**** description section ****/
+.description-section h5 {
+  margin-top: 0;
+}
+
+.description-section p {
+  font-size: small;
+}
+
+.description-section {
+  background-color: #ffd540;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+}
+
+/**** comments section ****/
+.comments-section {
+  background-color: #ffd540;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.comments-section h3 {
+  margin: 0;
+}
+
+.loading-icon {
+  text-align: center;
+}
+
+.fa-spinner {
+  color: #6414f8;
+}
+
+/**** Footer section ****/
+.footer {
+  background-color: #4b08c7;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-left: 10px;
+}
